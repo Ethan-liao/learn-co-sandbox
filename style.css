@@ -1,0 +1,16 @@
+
+.wrapper {
+  width: 960px;
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media not screen and (max-width: 992px) {
+  body {
+    background-color: yellow;
+  }
+}
